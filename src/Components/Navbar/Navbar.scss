@@ -89,6 +89,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--secondary-color);
+    cursor: pointer;
 
     svg {
       width: 70%;
@@ -97,6 +98,10 @@
     }
 
     div {
+      display: none;
+    }
+
+    div.show {
       position: fixed;
       top: 0;
       bottom: 0;
@@ -125,6 +130,7 @@
         height: 35px;
         color: var(--secondary-color);
         margin: 0.5rem 1rem;
+        cursor: pointer;
       }
 
       ul {
