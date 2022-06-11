@@ -2,6 +2,7 @@ import React from "react";
 import "./About.scss";
 import { motion } from "framer-motion";
 import { img } from "../../Constants";
+import { AppWrapper, MotionWrap } from "../../Wrapper";
 
 const About = () => {
   const abouts = [
@@ -28,9 +29,9 @@ const About = () => {
   ];
 
   return (
-    <div className="app__about app__whitebg app__flex">
+    <>
       <h2 className="head-text">
-        I Know that <span>Good Developer</span> <br />
+        I Know that <span>Good Develop</span> <br />
         means <span>Good Business</span>
       </h2>
 
@@ -53,8 +54,12 @@ const About = () => {
           </motion.div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 
-export default About;
+export default AppWrapper(
+  MotionWrap(About, "app__about"),
+  "about",
+  "app__whitebg"
+);
