@@ -2,14 +2,14 @@ import React from "react";
 import { useState } from "react";
 import "./Work.scss";
 import { motion } from "framer-motion";
-import { data } from "../../Constants/WorksApi";
+import { worksApi } from "../../Constants";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import AppWrapper from "../../Wrapper/AppWrapper";
 import MotionWrap from "../../Wrapper/MotionWrap";
 
 const Work = () => {
-  const [works] = useState(data);
-  const [filterWorks, setFilterWorks] = useState(data);
+  const [works] = useState(worksApi);
+  const [filterWorks, setFilterWorks] = useState(worksApi);
   const [activeFilter, setActiveFilter] = useState("All");
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 

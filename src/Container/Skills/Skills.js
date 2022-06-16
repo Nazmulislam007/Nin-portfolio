@@ -1,8 +1,7 @@
 import React from "react";
 import "./Skills.scss";
 import { motion } from "framer-motion";
-import skills from "../../Constants/SkillsApi";
-import experiences from "../../Constants/Experiences";
+import { skills, experiences } from "../../Constants";
 import ReactTooltip from "react-tooltip";
 import { MotionWrap, AppWrapper } from "../../Wrapper";
 

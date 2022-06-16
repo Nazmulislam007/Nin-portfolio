@@ -1,6 +1,6 @@
 import img from "./Images";
 
-export const data = [
+const worksApi = [
   {
     image: img.about01,
     title: "Resturant Projects",
@@ -42,3 +42,5 @@ export const data = [
     tags: "Mobile App",
   },
 ];
+
+export default worksApi;
