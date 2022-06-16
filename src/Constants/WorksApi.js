@@ -31,7 +31,7 @@ const worksApi = [
     description: "HTML, CSS3, JAVASCRIPT",
     projectLink: "https://nazmulislam007.github.io/chicken-food-web/",
     codeLink: "https://github.com/Nazmulislam007/chicken-food-web",
-    tags: "Web App",
+    tags: "Full Stack",
   },
   {
     image: img.about04,
@@ -39,7 +39,7 @@ const worksApi = [
     description: "HTML, CSS3, JAVASCRIPT",
     projectLink: "https://nazmulislam007.github.io/chicken-food-web/",
     codeLink: "https://github.com/Nazmulislam007/chicken-food-web",
-    tags: "Mobile App",
+    tags: "Full Stack",
   },
 ];
 

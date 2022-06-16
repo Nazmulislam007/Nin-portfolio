@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Testimonial.scss";
 import { motion } from "framer-motion";
-import { img, brand } from "../../Constants";
+import { brand } from "../../Constants";
 import { testimonial } from "../../Constants";
 import { AppWrapper, MotionWrap } from "../../Wrapper";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
