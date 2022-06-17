@@ -12,7 +12,7 @@ const SocialMedia = () => {
       >
         <BsTwitter />
       </a>
-      <a href="/">
+      <a href="www.linkedin.com/in/nazmul-islam-nahid-a3b93a217">
         <AiFillLinkedin />
       </a>
       <a
